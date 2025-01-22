@@ -66,7 +66,8 @@ function Navs() {
         </Toolbar>
       </AppBar>
       <Drawer anchor="left" open={open} onClose={() => setOpen(false)}>
-        <List>
+        <List sx={{width: "300px", paddingLeft: "10px"
+        }}>
           {menuItem.map((item) => (
             <ListItem button key={item} onClick={() => setOpen(false)}>
               <ListItemText sx={{ cursor: "pointer" }}>{item}</ListItemText>
@@ -81,12 +82,14 @@ function Navs() {
               border: "1px solid #2ab691",
               cursor: "pointer",
               "&:hover": { backgroundColor: "#2ab666", color: "white" },
+              width: "90px",
+              
             }}
           >
             <ListItemText primary="SignUp" />
           </ListItem>
         </List>
-      </Drawer>
+      </Drawer> 
     </>
   );
 }
