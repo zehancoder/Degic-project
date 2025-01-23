@@ -11,7 +11,7 @@ function HeroSec() {
                     </div>
                 </div>
                 <div className="flex-1 flex items-center justify-center lg:items-end lg:justify-end">
-                    <img className="w-full md:max-w-lg h-auto" src="/hero1.png" alt="" />
+                    <img className="w-5/6 md:max-w-lg h-auto" src="/hero1.png" alt="" />
                 </div>
             </section>
         </>
