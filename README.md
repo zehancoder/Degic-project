@@ -1,0 +1,1 @@
+https://mydegic.netlify.app/
